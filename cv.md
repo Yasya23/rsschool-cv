@@ -26,4 +26,16 @@ Programming for electronic computers and automated systems
 - [SheCodes Web Development 2022](https://www.shecodes.io/certificates/a073fc406bc31f7d04b54fb09aaf6db5) 
 - [Prometheus Fundamental of Web UI Development 2022](https://courses.prometheus.org.ua:18090/downloads/e42f59b2d7a64b0992203233db4531d7/Certificate.pdf)
 ## Code Examples
+```
+function isIsogram(str){
+ let string = str.toLowerCase();
+  for (let i = 0; i < string.length; i++) {
+    if (string.indexOf(string[i]) !== string.lastIndexOf(string[i])) {
+      return false;
+    }
+  }
+  return true;
+}
+```
 ## Languages
+English **B1**
